@@ -1,0 +1,38 @@
+.sort_btns {
+  margin-right: 0;
+  width: 30%;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+  
+.qhead {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    transform: skew(1deg, 1deg);
+    animation: header_wobble 5s linear infinite;
+    height: 10%;
+    width: 100%;
+}
+
+.qhead > * {
+  margin: 5px;
+}
+
+#searchBar {
+  font-size: 30px;
+  width: 30%;
+}
+
+@keyframes header_wobble {
+  50% {
+    transform: skew(-1deg, -1deg)
+  }
+  100% {
+    transform: skew(1deg, 1deg)
+  }
+}

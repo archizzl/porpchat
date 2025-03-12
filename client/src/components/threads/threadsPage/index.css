@@ -1,0 +1,21 @@
+.btns {
+  margin-right: 15%;
+}
+
+#threads_page {
+display: flex;
+flex-flow: row;
+justify-content: space-between;
+align-items: flex-start;
+height: 100%;
+width: 100%;
+/* background-color: red; */
+overflow: scroll;
+}
+
+#threads_list {
+display: flex;
+flex-flow: column;
+width: 50%;
+margin: 5px;
+}

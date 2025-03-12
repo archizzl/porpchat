@@ -1,0 +1,23 @@
+.tag_list {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.tags_header {
+  display: flex;
+  justify-content: center;
+  margin-top: 3px;
+  animation: wobble 5s linear infinite;
+  transform: skew(1deg, 1deg);
+}
+
+@keyframes wobble {
+  50% {
+    transform: skew(-1deg, -1deg)
+  }
+  100% {
+    transform: skew(1deg, 1deg)
+  }
+}

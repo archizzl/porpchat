@@ -1,0 +1,42 @@
+.sideBarNav {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  border-right: dashed;
+  padding: 4% 0 4% 0;
+  align-items: center;
+  overflow: hidden;
+}
+
+.menu_button:first-child {
+  margin-top: 0;
+}
+
+.menu_button {
+  height: 40px;
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  color: cornflowerblue;
+}
+
+.menu_button:hover {
+  opacity: 0.7;
+  animation: wobble 0.5s linear infinite;
+  background: #cccccc5d;
+}
+
+.menu_selected {
+  background: #cccccc;
+}
+
+@keyframes wobble {
+  50% {
+    transform: skew(30deg, 20deg)
+  }
+  100% {
+    transform: skew(0deg, 0deg)
+  }
+}

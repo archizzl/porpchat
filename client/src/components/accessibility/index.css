@@ -1,0 +1,101 @@
+/* General container styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+}
+
+p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Form styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Ensure each form group aligns properly */
+.form-group {
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styling for dropdowns and inputs */
+label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Dropdown (select) styling */
+select.input-text {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #fff;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* Center and set width for submit button */
+.save-preferences-button {
+padding: 10px 20px;
+font-size: 16px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+width: 100%;
+max-width: 200px;
+text-align: center;
+margin-top: 20px; 
+margin-bottom: 1rem;
+}
+
+
+/* Styling for the VoiceOver Prompt */
+.voiceover-prompt {
+  background-color: #f0f8ff;
+  padding: 15px; 
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+  align-self: flex-start; 
+}
+
+.voiceover-prompt p {
+  margin: -10;
+  text-align: left; 
+  padding: 10px 0;
+}
+
+
+.voiceover-prompt p:first-of-type {
+  padding-top: 20px; 
+}
+
+.voiceover-prompt p:last-of-type {
+  padding-bottom: 20px; 
+}
+
+.voiceover-prompt ul {
+  padding-left: 20px;
+  list-style-type: disc; 
+}
+
+.voiceover-prompt strong {
+  font-weight: bold;
+}

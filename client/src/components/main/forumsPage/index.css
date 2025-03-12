@@ -1,0 +1,20 @@
+.btns {
+    margin-right: 15%;
+  }
+  
+  #forums_page {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+  }
+  
+#forums_list {
+  display: flex;
+  flex-flow: row wrap;
+  width: 50%;
+  margin: 5px;
+}

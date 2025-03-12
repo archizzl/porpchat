@@ -1,0 +1,22 @@
+/* All the CSS related to answers Page*/
+.answer {
+  display: flex;
+  flex-direction: row;
+  border-bottom: #000000 1px solid;
+  box-sizing: border-box;
+  padding-top: 5px;
+}
+
+.answerText {
+  width: 75%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.answerAuthor {
+  margin-left: 5%;
+}
+
+.answer_author {
+  color: green;
+}

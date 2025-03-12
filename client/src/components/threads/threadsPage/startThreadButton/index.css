@@ -1,0 +1,14 @@
+.newThreadBtn {
+  font-size: 20px;
+  transition: 0.3s;
+  height: 50px;
+  padding: 10px;
+  margin: 20px;
+  min-width: 200px;
+}
+
+.newThreadBtn:hover {
+cursor: pointer;
+opacity: 0.5;
+transform: translate(3px, 20%);
+}

@@ -1,0 +1,15 @@
+.btn {
+  background: #ffffff;
+  border: #000000 1px solid;
+  margin: 3px;
+  padding: 3px;
+  border-radius: 3px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: #007bff;
+  cursor: pointer;
+  transform: scale(1.05) skew(-3deg, -3deg);
+  
+}

@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 10%;
+  width: 100%;
+  background: #dddddd;
+  overflow: hidden;
+}
+
+.header > * {
+  margin-left: 25px;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between the search bar and profile icon */
+}
+
+.profile-name {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  color: blue;
+  text-decoration: none;
+}
+
+.profile-name:hover {
+  opacity: 0.6;
+}
+
+.profile-icon {
+  font-size: 2.4rem;
+  color: #333;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.profile-icon:hover {
+  color: #007bff;
+  transform: rotate(360deg) scale(1.1);
+}
+
+#header_img {
+  height: 100%;
+}

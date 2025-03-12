@@ -1,0 +1,46 @@
+.thread_preview {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  transition: 0.2s;
+  width: 100%;
+  height: 100px;
+  border: 1px dashed gray;
+  border-radius: 10px;
+  padding: 8px;
+  overflow: hidden;
+}
+
+.thread_preview_bold {
+  border: 3px solid black;
+}
+
+.thread_preview:hover {
+  opacity: 0.6;
+  transform: skew(2deg, -2deg);
+  cursor: pointer;
+}
+
+.threadWith {
+  color: red;
+  font-size: 60px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.threadLastActivity {
+  width: 100%;
+}
+
+.threadSnippet {
+  width: 100%;
+  overflow: hidden;
+}
+
+.thread_meta {
+  color: gray;
+  font-size: 12px;
+  width: 100%;
+  /* background-color: green; */
+  margin-left: 1px;
+}

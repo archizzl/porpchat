@@ -1,0 +1,28 @@
+.forum_preview {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    transition: 0.2s;
+    width: 40%;
+    min-height: 100px;
+    border: 1px dashed gray;
+    border-radius: 10px;
+    padding: 8px;
+    overflow: hidden;
+  }
+
+.forum_preview:hover {
+    cursor: pointer;
+    border: 1px solid #ff32cc;
+    transform: scale(1.02) rotate(1.5deg)
+}
+
+.forum_name {
+    font-size: 30px;
+    overflow-wrap: break-word;
+}
+
+.forum_description {
+    width: 100%;
+    overflow-wrap: break-word;
+}
