@@ -1,8 +1,3 @@
-This is Friendship Overflow, a friendship-oriented version of stack overflow!
+This is PorpChat, a live chat/social experiment built specifically for the Porpoise Dashboard at WRBB 104.9FM Boston. 
 
-To install, download the zip file, and navigate into the server and client directory and run 
-$ npm run start 
-
-in each of them, then open your localhost:3000!
-
-have fun making friends!
+You can see it in production at porpoise.dashboard.wrbbradio.org
